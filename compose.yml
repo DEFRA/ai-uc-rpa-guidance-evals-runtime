@@ -54,6 +54,9 @@ services:
     environment:
       PORT: ${PORT:-8285}
       AWS_ENDPOINT_URL: ${AWS_ENDPOINT_URL:-http://floci:4566}
+      # Not ${FLOCI_ENDPOINT_URL:-...}: compose interpolates that from ./.env,
+      # which holds the host-side value and would win over the default.
+      FLOCI_ENDPOINT_URL: http://floci:4566
       MONGO_URI: ${MONGO_URI:-mongodb://mongodb:27017/}
       HOST: ${HOST:-0.0.0.0}
     develop:
