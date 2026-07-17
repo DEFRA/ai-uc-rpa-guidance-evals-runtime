@@ -6,4 +6,4 @@
 # SQS queues
 #aws sqs create-queue --queue-name my-queue
 
-aws s3 mb --endpoint-url=http://localhost:4566 s3://ai-uc-rpa-guidance-evals-assets
+aws s3 mb --endpoint-url=http://localhost:4566 s3://guidance-evals-assets

@@ -76,7 +76,7 @@ class AppConfig(pydantic_settings.BaseSettings):
     port: int = 8285
     log_config: str | None = None
     mongo_uri: str | None = None
-    mongo_database: str = "ai-uc-rpa-guidance"
+    mongo_database: str = "ai-uc-rpa-guidance-evals-runtime"
     mongo_truststore: str = "TRUSTSTORE_CDP_ROOT_CA"
     floci_endpoint_url: str | None = None
     aws_region: str = pydantic.Field(
