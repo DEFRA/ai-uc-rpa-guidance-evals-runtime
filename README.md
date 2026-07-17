@@ -208,7 +208,7 @@ uv run pytest
 |:--------------------------------| :----------------------------- |
 | `GET: /docs`                    | Automatic API Swagger docs     |
 | `GET: /health`                  | Health check endpoint          |
-| `GET: /publishing/evals/assets` | Simple example endpoint        |
+| `GET: /publishing/assets`       | Simple example endpoint        |
 
 ## Custom Cloudwatch Metrics
 
