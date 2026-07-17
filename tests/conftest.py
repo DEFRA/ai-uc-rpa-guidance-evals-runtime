@@ -18,4 +18,4 @@ os.environ.setdefault(
 os.environ.setdefault("CDP_UPLOADER_BASE_URL", "http://localhost:8087")
 os.environ.setdefault("CDP_UPLOADER_TIMEOUT", "30")
 os.environ.setdefault("CALLBACK_BASE_URL", "http://localhost:8285")
-os.environ.setdefault("ASSETS_S3_BUCKET", "guidance-evals-assets")
+os.environ.setdefault("ASSETS_S3_BUCKET", "ai-uc-rpa-guidance-evals-assets")
